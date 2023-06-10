@@ -1,0 +1,24 @@
+.navSub li{
+    border-bottom: 1px solid #d3d2d2;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.navSub li > svg{
+    width: 20px;
+}
+
+.navSub li:last-child{
+    border: none;
+}
+.navSub li a{
+    transition: all .3s ease;
+}
+.navSub li:hover a{
+    color: red;
+    translate: 20px;
+    transition: all .3s ease;
+}
