@@ -5,7 +5,7 @@ import { MdStarRate } from "react-icons/md";
 
 export default function FeaturdBox() {
   return (
-    <div className="featured_box  bg-white rounded-md">
+    <div className="featured_box  bg-white rounded-md transition ease-linear delay-150">
               <div className="img-area w-[100%] h-auto p-2">
                 <div className="img relative overflow-hidden rounded-md">
                   <Image
@@ -36,7 +36,7 @@ export default function FeaturdBox() {
                   ab voluptates obcaecati quidem!
                 </p>
               </div>
-                <Link href={"#"} className=" learn_more w-[100%] block text-center py-3" >Learn more.</Link>
+                <Link href={"#"} className=" learn_more w-[100%] block text-center py-3" >Learn more</Link>
             </div>
   )
 }

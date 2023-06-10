@@ -4,7 +4,6 @@ import Link from "next/link";
 import FeaturdBox from "@/components/FeaturdBox";
 import ChooseBox from "@/components/ChooseBox";
 
-
 export default function Home() {
   return (
     <>
@@ -74,6 +73,7 @@ export default function Home() {
               Handpicked properties by our team.
             </span>
           </div>
+          
           <div className="featured_boxes grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 items-center">
             <FeaturdBox />
             <FeaturdBox />
